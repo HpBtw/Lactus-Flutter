@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../navigation/app_routes.dart';
+import 'package:sprint3flutter/navigation/app_routes.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
