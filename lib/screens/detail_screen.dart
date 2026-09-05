@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sprint3flutter/model/banco_leite.dart';
+import 'package:sprint3flutter/navigation/app_routes.dart';
 
 class DetailScreen extends StatelessWidget {
   final BancoLeite banco;
@@ -49,9 +50,8 @@ class DetailScreen extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(vertical: 16)
                 ),
                 onPressed: () {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('Interesse de doação registrado!'))
-                  );
+                  // Passando o objeto banco atual para a tela de form
+                  Navigator.pushNamed(context, AppRoutes.form, arguments: banco);
                 },
                 child: const Text('Iniciar Doação', style: TextStyle(fontSize: 16)),
               ),

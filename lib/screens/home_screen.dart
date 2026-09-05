@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sprint3flutter/navigation/app_routes.dart';
+import '../navigation/app_routes.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -40,6 +40,21 @@ class HomeScreen extends StatelessWidget {
                     Navigator.pushNamed(context, AppRoutes.list);
                   },
                   child: const Text('Encontrar Bancos de Leite', style: TextStyle(fontSize: 16)),
+                ),
+              ),
+              const SizedBox(height: 16),
+              SizedBox(
+                width: double.infinity,
+                child: OutlinedButton(
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: Colors.pinkAccent,
+                    side: const BorderSide(color: Colors.pinkAccent),
+                    padding: const EdgeInsets.symmetric(vertical: 16)
+                  ),
+                  onPressed: () {
+                    Navigator.pushNamed(context, AppRoutes.myDonations);
+                  },
+                  child: const Text('Bancos aos quais estou cadastrada', style: TextStyle(fontSize: 16)),
                 ),
               ),
             ],
