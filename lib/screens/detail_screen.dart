@@ -50,7 +50,6 @@ class DetailScreen extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(vertical: 16)
                 ),
                 onPressed: () {
-                  // Passando o objeto banco atual para a tela de form
                   Navigator.pushNamed(context, AppRoutes.form, arguments: banco);
                 },
                 child: const Text('Iniciar Doação', style: TextStyle(fontSize: 16)),

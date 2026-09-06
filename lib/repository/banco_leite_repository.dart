@@ -24,6 +24,55 @@ class BancoLeiteRepository {
         distanciaKm: 7.1,
         necessidade: 'Normal',
       ),
+      BancoLeite(
+        id: '4',
+        nome: 'Hospital Maternidade Vila Nova Cachoeirinha',
+        endereco: 'Av. Dep. Emílio Carlos, 3100 - Cachoeirinha, SP',
+        distanciaKm: 8.4,
+        necessidade: 'Alta',
+      ),
+      BancoLeite(
+        id: '5',
+        nome: 'Amparo Maternal',
+        endereco: 'R. Loefgren, 1901 - Vila Clementino, SP',
+        distanciaKm: 6.8,
+        necessidade: 'Média',
+      ),
+      BancoLeite(
+        id: '6',
+        nome: 'Hospital Municipal do Tatuapé',
+        endereco: 'Av. Celso Garcia, 4815 - Tatuapé, SP',
+        distanciaKm: 4.1,
+        necessidade: 'Crítica',
+      ),
+      BancoLeite(
+        id: '7',
+        nome: 'Hospital Maternidade Interlagos',
+        endereco: 'R. Leonor Fernandes da Costa, 211 - Interlagos, SP',
+        distanciaKm: 15.3,
+        necessidade: 'Alta',
+      ),
+      BancoLeite(
+        id: '8',
+        nome: 'Hospital Geral de Pedreira',
+        endereco: 'R. João Francisco de Moura, 251 - Vila Campo Grande, SP',
+        distanciaKm: 18.0,
+        necessidade: 'Normal',
+      ),
+      BancoLeite(
+        id: '9',
+        nome: 'Hospital do Mandaqui',
+        endereco: 'R. Voluntários da Pátria, 4301 - Santana, SP',
+        distanciaKm: 9.2,
+        necessidade: 'Crítica',
+      ),
+      BancoLeite(
+        id: '10',
+        nome: 'Hospital Estadual de Diadema',
+        endereco: 'Av. José Bonifácio, 1641 - Serraria, Diadema - SP',
+        distanciaKm: 21.5,
+        necessidade: 'Média',
+      ),
     ];
   }
 }
