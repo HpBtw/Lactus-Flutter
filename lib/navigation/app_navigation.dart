@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:sprint3flutter/model/banco_leite.dart';
 import 'package:sprint3flutter/navigation/app_routes.dart';
-import 'package:sprint3flutter/screens/detail_screen.dart';
-import 'package:sprint3flutter/screens/form_screen.dart';
-import 'package:sprint3flutter/screens/home_screen.dart';
-import 'package:sprint3flutter/screens/list_screen.dart';
-import 'package:sprint3flutter/screens/my_donations_screen.dart';
+import 'package:sprint3flutter/ui/screens/detail_screen.dart';
+import 'package:sprint3flutter/ui/screens/form_screen.dart';
+import 'package:sprint3flutter/ui/screens/home_screen.dart';
+import 'package:sprint3flutter/ui/screens/list_screen.dart';
+import 'package:sprint3flutter/ui/screens/my_donations_screen.dart';
 
 class AppNavigation {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
+      // TODO Splash Screen
+      // case AppRoutes.splash:
+      //   return MaterialPageRoute(builder: (_) => const SplashScreen());
       case AppRoutes.home:
         return MaterialPageRoute(builder: (_) => const HomeScreen());
       case AppRoutes.list:

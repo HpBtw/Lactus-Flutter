@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sprint3flutter/components/banco_leite_card.dart';
+import 'package:sprint3flutter/ui/components/banco_leite_card.dart';
 import 'package:sprint3flutter/model/banco_leite.dart';
 import 'package:sprint3flutter/navigation/app_routes.dart';
 import 'package:sprint3flutter/repository/banco_leite_repository.dart';
