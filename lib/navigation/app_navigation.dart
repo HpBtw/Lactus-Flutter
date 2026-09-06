@@ -6,13 +6,13 @@ import 'package:sprint3flutter/ui/screens/form_screen.dart';
 import 'package:sprint3flutter/ui/screens/home_screen.dart';
 import 'package:sprint3flutter/ui/screens/list_screen.dart';
 import 'package:sprint3flutter/ui/screens/my_donations_screen.dart';
+import 'package:sprint3flutter/ui/screens/splash_screen.dart';
 
 class AppNavigation {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
-      // TODO Splash Screen
-      // case AppRoutes.splash:
-      //   return MaterialPageRoute(builder: (_) => const SplashScreen());
+      case AppRoutes.splash:
+        return MaterialPageRoute(builder: (_) => const SplashScreen());
       case AppRoutes.home:
         return MaterialPageRoute(builder: (_) => const HomeScreen());
       case AppRoutes.list:

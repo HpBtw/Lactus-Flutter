@@ -18,7 +18,7 @@ class LactusApp extends StatelessWidget {
         colorSchemeSeed: Colors.pinkAccent,
         useMaterial3: true,
       ),
-      initialRoute: AppRoutes.home,
+      initialRoute: AppRoutes.splash,
       onGenerateRoute: AppNavigation.generateRoute,
     );
   }
