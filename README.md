@@ -46,7 +46,7 @@ Siga os passos abaixo para rodar o aplicativo localmente em sua máquina:
 1. Certifique-se de ter o [Flutter SDK](https://flutter.dev/docs/get-started/install) instalado.
 2. Clone este repositório através do terminal:
    ```bash
-   git clone [https://github.com/HpBtw/Lactus-Flutter.git](https://github.com/HpBtw/Lactus-Flutter.git)
+   git clone https://github.com/HpBtw/Lactus-Flutter.git
    ```
 
 3. Acesse a pasta do projeto:
