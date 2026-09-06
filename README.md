@@ -66,4 +66,5 @@ Siga os passos abaixo para rodar o aplicativo localmente em sua máquina:
    flutter run
    ```
 
-Evidências de Funcionamento
+
+### 7. Evidências de Funcionamento
