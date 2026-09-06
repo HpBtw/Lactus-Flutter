@@ -49,19 +49,19 @@ Siga os passos abaixo para rodar o aplicativo localmente em sua máquina:
    git clone [https://github.com/HpBtw/Lactus-Flutter.git](https://github.com/HpBtw/Lactus-Flutter.git)
    ```
 
-Acesse a pasta do projeto:
+3. Acesse a pasta do projeto:
    ```bash
    cd lactus-flutter
    ```
 
-Baixe as dependências do projeto (incluindo o pacote lottie configurado no pubspec.yaml):
+4. Baixe as dependências do projeto (incluindo o pacote lottie configurado no pubspec.yaml):
    ```bash
-   flutter pub get]
+   flutter pub get
    ```
 
-Conecte um emulador (Android/iOS) ou um dispositivo físico via USB/Wi-Fi.
+5. Conecte um emulador (Android/iOS), dispositivo físico via USB/Wi-Fi ou rode pelo Flutter Built-in LiveServer.
 
-Execute o aplicativo:
+6. Execute o aplicativo:
    ```bash
    flutter run
    ```
